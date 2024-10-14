@@ -75,6 +75,18 @@ h3 {
   cursor: pointer;
   box-shadow: 4px 6px 18px 5px   hsl(150, 100%, 75%);
 }
+.bounce {
+  animation: bounce 1.7s ease-in-out infinite;
+}
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-25px);
+  }
+
+}
 
 @media (max-width: 420px){
   .joke{
